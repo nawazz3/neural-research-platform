@@ -36,7 +36,7 @@ The system ensures:
 
 ---
 
-# ✨ Features
+# Features
 
 ## AI Agent Team
 
@@ -102,7 +102,7 @@ Each agent operates independently but passes structured output downstream to ens
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Prerequisites
 
