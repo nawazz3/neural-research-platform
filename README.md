@@ -1,10 +1,8 @@
-# 🧠 Neural Research Platform
+# Neural Research Platform
 
 Enterprise-Grade Multi-Agent AI Research System
 
----
-
-## 📌 Table of Contents
+## Table of Contents
 
 * [Overview](#-overview)
 * [Features](#-features)
@@ -17,12 +15,11 @@ Enterprise-Grade Multi-Agent AI Research System
 * [API Reference](#-api-reference)
 * [Monitoring & Metrics](#-monitoring--metrics)
 * [Contributing](#-contributing)
-* [License](#-license)
 * [Acknowledgements](#-acknowledgements)
 
 ---
 
-# 🔭 Overview
+# Overview
 
 **Neural Research Platform** is an enterprise AI system that orchestrates a team of specialized AI agents to conduct deep research, extract structured insights, produce professional-grade reports, and validate output quality — autonomously.
 
@@ -31,7 +28,6 @@ Built for researchers, analysts, consultants, and enterprise teams, the platform
 > **One topic in → Four specialized agents → One validated, exportable report**
 
 The system ensures:
-
 * Structured research workflows
 * Source-backed intelligence
 * Quality assurance validation
@@ -42,7 +38,7 @@ The system ensures:
 
 # ✨ Features
 
-## 🤖 AI Agent Team
+## AI Agent Team
 
 | Agent                  | Role               | Responsibility                                       | Output                 |
 | ---------------------- | ------------------ | ---------------------------------------------------- | ---------------------- |
@@ -53,7 +49,7 @@ The system ensures:
 
 ---
 
-## 🖥️ Platform Capabilities
+## Platform Capabilities
 
 * Multi-format export — **PDF, Word, JSON, Markdown**
 * Real-time progress tracking with confidence scoring
@@ -65,9 +61,9 @@ The system ensures:
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
-## 🔄 Agent Pipeline
+## Agent Pipeline
 
 ```
 User Input (Topic)
@@ -92,7 +88,7 @@ Each agent operates independently but passes structured output downstream to ens
 
 ---
 
-# 🧱 Technology Stack
+# Technology Stack
 
 | Layer               | Technology   |
 | ------------------- | ------------ |
@@ -119,7 +115,7 @@ Each agent operates independently but passes structured output downstream to ens
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/neural-research-platform.git
+git clone  https://github.com/nawazz3/neural-research-platform.git
 cd neural-research-platform
 ```
 
@@ -152,8 +148,7 @@ GROQ_API_KEY=your_groq_api_key_here
 SERPER_API_KEY=your_serper_api_key_here
 ```
 
-⚠️ **Never commit your `.env` file.** It is excluded via `.gitignore`.
-
+⚠️**Never commit your `.env` file.** It is excluded via `.gitignore`.⚠️
 ---
 
 ## 5️⃣ Launch the Application
@@ -169,7 +164,6 @@ http://localhost:8501
 ```
 
 ---
-
 # 📁 Project Structure
 
 ```
@@ -207,7 +201,7 @@ The **System Control Panel** enables pipeline customization.
 
 ---
 
-## 🔐 Role-Based Access
+## Role-Based Access
 
 | Role    | Permissions                            |
 | ------- | -------------------------------------- |
@@ -217,7 +211,7 @@ The **System Control Panel** enables pipeline customization.
 
 ---
 
-## 🧠 Advanced Features
+##  Advanced Features
 
 * Risk Scoring Engine (0–100 sensitivity control)
 * Citation Panel (APA, MLA, Chicago, Harvard)
@@ -270,27 +264,12 @@ The Dashboard provides real-time performance visibility.
 * Success Rate
 * Average Execution Time
 
-## 📡 API Usage
-
-* GROQ Call Counter
-* SERPER Call Counter
-
-## 💡 Agent Health Scores
-
-Each agent reports a live health percentage (0–100%):
-
-```
-Research Specialist  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 95%
-Data Analyst         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░  92%
-Content Writer       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░   88%
-QA Reviewer          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 96%
-```
 
 This enables enterprise-grade observability and reliability.
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 We welcome contributions.
 
@@ -322,14 +301,8 @@ For major changes, open an issue first.
 
 ---
 
-# 📄 License
 
-This project is licensed under the **MIT License**.
-See the `LICENSE` file for details.
-
----
-
-# 🙏 Acknowledgements
+#  Acknowledgements
 
 * CrewAI — Multi-agent orchestration
 * Streamlit — Web interface
@@ -338,11 +311,4 @@ See the `LICENSE` file for details.
 * ReportLab — PDF generation
 * python-docx — Word document creation
 
----
 
-## ⭐ Final Note
-
-Neural Research Platform is designed to bridge the gap between raw AI generation and enterprise-ready intelligence.
-
-It is not just a research assistant —
-it is a structured AI research workflow engine.
